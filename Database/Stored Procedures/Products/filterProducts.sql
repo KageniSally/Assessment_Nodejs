@@ -1,0 +1,9 @@
+CREATE OR ALTER PROCEDURE filterProducts(
+    @Name VARCHAR(255)
+)
+AS
+BEGIN
+    SELECT *
+    FROM Products
+    WHERE Name=@Name AND Price BETWEEN 30000 AND 70000
+END

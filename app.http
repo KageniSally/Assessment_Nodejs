@@ -1,0 +1,32 @@
+POST http://localhost:4002/products
+Content-Type: application/json
+
+{
+    "Name":"Television",
+    "Description":"55 Inch",
+    "Price":65000
+}
+
+
+
+####
+GET http://localhost:4002/products/0869976c-534b-4353-a572-afeab2520dcf
+
+
+
+####
+GET http://localhost:4002/products
+
+####
+GET http://localhost:4002/products/filter/Computer
+
+
+
+
+
+
+
+
+
+
+
